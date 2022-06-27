@@ -1,0 +1,69 @@
+body {
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#board {
+    display: inline-grid;
+    background-color: navy;
+    height: 600px;
+    width: 600px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1rem;
+    color: aliceblue;
+    text-align: center;
+    margin: 6px;
+
+
+}
+
+#player1 {
+    margin: 6px;
+}
+
+#player2 {
+    margin: 6px;
+}
+
+
+[id='00'] {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+
+}
+
+[id='10'] {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+[id='20'] {
+    border-bottom: 2px solid black;
+}
+
+[id='01'] {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+[id='11'] {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+[id='21'] {
+
+    border-bottom: 2px solid black;
+}
+
+[id='02'] {
+    border-right: 2px solid black;
+
+}
+
+[id='12'] {
+    border-right: 2px solid black;
+
+}
